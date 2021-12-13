@@ -19,4 +19,15 @@
         border: 1px solid black;
         transition: 0.2s ease-in-out;
     }
+    &.google-sign-in {
+        background-color: #4285f4;
+        color: white;
+        &:hover {
+            background-color: #a6c7fc;
+            border: none;
+            transition: 0.2s ease-in-out;
+            border: 1px solid black;
+            color: black;
+        }
+    }
 }
